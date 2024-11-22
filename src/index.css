@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
+
+
+@font-face {
+    font-family: "Rubik";
+    src: url("./assets/Rubik-Regular.ttf") format("TrueType");
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Inter_28pt-Regular.ttf") format("TrueType");
+}
+
+.sidebarLayout{
+    width: fit-content;
+}
+
+.outlet{
+    width: 200vw;
+}
+
+.loginbg{
+    background-image: url('./assets/login.png');
+    background-size: cover;
+    /* background-position-x: -550px ; */
+
+}
+
+.regbg{
+    background-image: url('./assets/register.jpg');
+    background-size: cover;
+    /* background-position-x: -300px ; */
+
+}
+
+body::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(70, 70, 70);  
+    width: 10px;               /* width of the entire scrollbar */
+    /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(115, 115, 115);
+        /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */;  /* creates padding around scroll thumb */
+  }
+
+.MuiDataGrid-columnHeaderTitle{
+    font-family: 'Rubik';
+}
+.MuiDataGrid-cell {
+    font-family: 'Rubik';
+}
+body{
+    font-family: 'Rubik';
+}
